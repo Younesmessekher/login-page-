@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(picture/background.jpg);
+
+background-size: 100%;
+           background-repeat: repeat;
+}
+
+
+.coucou{
+    text-align: center; 
+height: 80%;
+width: 350px;
+max-width: 1000px;
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate( -50%,-50%);
+background-color:rgb(255, 255, 255)  ;
+padding: 40px 30px 80px;
+border-style: groove;
+border-color: rgba(22, 138, 5, 0.317);
+border-radius: 5%;
+
+}
+.Sign{
+    text-align: center;
+    height: 20%;
+    color: rgba(22, 138, 5, 0.317);
+    text-align: center;
+   
+   
+
+}
+.ror{
+    margin: 20px;
+    text-align: center;
+    
+}   
+.psps{    margin: 20px;
+    text-align: center;
+   }
+   
+    input{ 
+        background:  transparent;
+        width: 10%;
+        border: 0%;
+        outline: 0%;
+        padding: 10px, 18px;
+       
+    }
+
+.Sign::after {  
+        content: '';
+        width: 30px;
+        height: 4px;
+        border-radius: 3px;
+        background: rgba(22, 138, 5, 0.317) ;
+        position: absolute;
+        bottom: -12px;
+        left: 50%;
+        transform: translateX(-50%);
+        
+     }
+    .psps,.ror{
+        background: #eaeaea;
+        margin: 10px;
+        border-radius: 3px;
+        align-items: center;     
+        display: flex;
+    }
+    input{
+       width: 85%;
+       background: transparent;
+       border: 1px;
+       outline: 0;
+       padding: 20px 18px;
+
+    }
+   .psps i, .ror i{
+ margin-left: 6px;
+    color: #999;
+
+   }
+ 
+   .click ,.rg {
+    color: rgba(22, 138, 5, 0.317);
+
+   }
+   .password ,.regester{
+    font-size: small;
+    color: #999;
+   
+
+   }
+   .check{
+    font-size: small;
+    color: #999;
+    padding: 0px;
+  text-align: center;
+display: inline-flex;     
+    margin: 10px;
+   }
+
+
+.save{ 
+    padding: 20px;
+   
+
+}
+.but{ 
+    padding: 10px;
+    background-color: rgba(22, 138, 5, 0.317) ;
+    border-radius: 3px;
+    border: 0px;
+    text-align: center;
+    color: #999 ;
+     padding-left: 80px;
+     padding-right: 80px;
+     padding-top: 12px;
+}
+.but:hover {
+    background-color: #107615; 
+}
